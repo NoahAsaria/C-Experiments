@@ -12,3 +12,4 @@
 /Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/obj/Debug/net7.0/C#ConsoleProject.pdb
 /Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/obj/Debug/net7.0/C#ConsoleProject.genruntimeconfig.cache
 /Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/obj/Debug/net7.0/ref/C#ConsoleProject.dll
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/obj/Debug/net7.0/C#ConsoleProject.sourcelink.json
