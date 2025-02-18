@@ -1,0 +1,14 @@
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/bin/Debug/net7.0/C#ConsoleProject
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/bin/Debug/net7.0/C#ConsoleProject.deps.json
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/bin/Debug/net7.0/C#ConsoleProject.runtimeconfig.json
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/bin/Debug/net7.0/C#ConsoleProject.dll
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/bin/Debug/net7.0/C#ConsoleProject.pdb
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/obj/Debug/net7.0/C#ConsoleProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/obj/Debug/net7.0/C#ConsoleProject.AssemblyInfoInputs.cache
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/obj/Debug/net7.0/C#ConsoleProject.AssemblyInfo.cs
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/obj/Debug/net7.0/C#ConsoleProject.csproj.CoreCompileInputs.cache
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/obj/Debug/net7.0/C#ConsoleProject.dll
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/obj/Debug/net7.0/refint/C#ConsoleProject.dll
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/obj/Debug/net7.0/C#ConsoleProject.pdb
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/obj/Debug/net7.0/C#ConsoleProject.genruntimeconfig.cache
+/Users/Work/Documents/Technical Projects 2025/CSharpExperiment/C#ConsoleProject/obj/Debug/net7.0/ref/C#ConsoleProject.dll
