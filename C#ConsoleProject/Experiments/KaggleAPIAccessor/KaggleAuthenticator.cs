@@ -1,10 +1,10 @@
 using System.Net.Http;
 using System.Net.Security;
+using System.Text.Json;
 using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
 using HTTPClientSingletonNS;
 using System.Net.Http.Headers;
-using Newtonsoft.Json;
 
 //Implementing steps from https://www.kaggle.com/discussions/general/52093 in a class format
 namespace KaggleAuthenticatorNS {
@@ -20,17 +20,19 @@ namespace KaggleAuthenticatorNS {
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Basic", _authToken);
         }
         private void setAuthToken() {
-            var authParams = new { Username = string.Empty, Key = string.Empty };
+            Dictionary<string, string> authParams = new Dictionary<string, string>();
+            //var authParams = new { Username = string.Empty, Key = string.Empty }; //Anonymous typing
             using (var reader = new StreamReader(_pathToKaggleAuthJSON)) {
                 var json = reader.ReadToEnd();
-                authParams = JsonConvert.DeserializeAnonymousType(json, authParams);
+                authParams = JsonSerializer.Deserialize<Dictionary<string,string>>(json);
+                Console.Write(authParams.ToString());
             }
             //Set intermediate authParams var
             var authToken = "";
             if (authParams is not null) {
                 authToken = Convert.ToBase64String(
                     System.Text.ASCIIEncoding.ASCII.GetBytes(
-                        string.Format($"{authParams.Username}:{authParams.Key}", authParams)
+                        string.Format($"{authParams["Username"]}:{authParams["Key"]}", authParams)
                     )
                 );
             }

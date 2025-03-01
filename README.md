@@ -1,5 +1,5 @@
 # C# Experiments
-This is my workspace for incrementally learning C# syntax and functionality by doing. As I learn more about the language and the .NET platform, I will be adding simple implementations to this repository. The end goal is to refine these approaches to follow and truly understand best practices for working with the language.
+This is my workspace for incrementally learning C# syntax and functionality. As I learn more about the language and the .NET platform, I will be adding simple implementations to this repository. The end goal is to refine these approaches to follow and truly understand best practices for working with the language.
 
 Capabilities to implement:
 - Authenticate and read from an API and download files. (KaggleAPIAccessor)
@@ -13,3 +13,10 @@ Capabilities to implement:
 - Process real-time data efficiently
 
 - Process a variety of interesting file formats, including Blob, Graphs etc.
+
+Completion Log:
+- Authenticating and reading from the Kaggle API in a class format. Followed this tutorial: https://www.kaggle.com/discussions/general/52093 
+
+- Changed the Newtonsoft JSON syntax to System.Text.Json syntax for parsing the JSON authorization token
+
+- Added data models for nested JSON API responses, referenced: https://jeremyparnell.com/blog/best-practices-for-consuming-an-api/
