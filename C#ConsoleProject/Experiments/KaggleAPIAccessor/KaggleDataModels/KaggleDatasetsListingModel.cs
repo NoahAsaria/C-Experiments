@@ -58,9 +58,9 @@ public class KaggleDatasetListingModel {
 [DataContract]
 public class KaggleDatasetListingRootModel {
     [DataMember(Name ="errorMessageNullable")]
-    public bool? errorMessageNullable { get; set; }
+    public string? errorMessageNullable { get; set; }
     [DataMember(Name ="nextPageTokenNullable")]
-    public bool? nextPageTokenNullable { get; set; }
+    public string? nextPageTokenNullable { get; set; }
     [DataMember(Name ="datasetFiles")]
     public List<KaggleDatasetListingModel>? datasetFiles { get; set; }
     [DataMember(Name ="errorMessage")]
