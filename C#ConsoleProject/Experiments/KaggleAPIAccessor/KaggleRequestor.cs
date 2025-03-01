@@ -37,5 +37,9 @@ namespace KaggleRequestorNS {
             return kaggleDatasetListing;
         }   
 
+        public void downloadKaggleDataset(string kaggleQueryString) {
+            string result = rawKaggleAPICall(kaggleQueryString);
+        }
+
     }
 }
