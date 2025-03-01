@@ -8,66 +8,67 @@ namespace KaggleDataModelsNS;
 [DataContract]
 public class KaggleDatasetListingModel {
     [DataMember(Name="datasetRefNullable")]
-    public string? DatasetRefNullable { get; set; }
+    public string? datasetRefNullable { get; set; }
     [DataMember(Name ="ownerRefNullable")]
-    public string? OwnerRefNullable;
+    public string? ownerRefNullable;
     [DataMember(Name = "nameNullable")]
-    public string? NameNullable { get; set; }
+    public string? nameNullable { get; set; }
     [DataMember(Name ="descriptionNullable")]
-    public string? DescriptionNullable { get; set; }
+    public string? descriptionNullable { get; set; }
     [DataMember(Name="fileTypeNullable")]
-    public string? FileTypeNullable { get; set; }
+    public string? fileTypeNullable { get; set; }
     [DataMember(Name="urlNullable")]
-    public string? UrlNullable { get; set; }
+    public string? urlNullable { get; set; }
     [DataMember(Name ="ref")] //How to override this?
-    public string? Ref { get; set; }
+    public string? @ref { get; set; }
     [DataMember(Name="datasetRef")]
-    public string? DatasetRef { get; set; }
+    public string? datasetRef { get; set; }
     [DataMember(Name="hasDatasetRef")]
-    public bool HasDatasetRef { get; set; }
+    public bool? hasDatasetRef { get; set; }
     [DataMember(Name="ownerRef")]
-    public string? OwnerRef { get; set; }
+    public string? ownerRef { get; set; }
     [DataMember(Name="hasOwnerRef")]
-    public bool HasOwnerRef { get; set; }
+    public bool? hasOwnerRef { get; set; }
     [DataMember(Name ="name")]
-    public string? Name { get; set; }
+    public string? name { get; set; }
 
     [DataMember(Name="hasName")]
-    public bool HasName { get; set; }
-    [DataMember(Name="url")]
-    public DateTime CreationDate { get; set; }
+    public bool? hasName { get; set; }
+    [DataMember(Name="creationDate")]
+
+    public DateTime creationDate { get; set; }
     [DataMember(Name="description")]
-    public string? Description { get; set; }
+    public string? description { get; set; }
     [DataMember(Name ="hasDescription")]
-    public bool HasDescription { get; set; }
+    public bool? hasDescription { get; set; }
     [DataMember(Name ="fileType")]
-    public string? FileType { get; set; }
+    public string? fileType { get; set; }
     [DataMember(Name ="hasFileType")]
-    public bool HasFileType { get; set; }
-    [DataMember(Name ="totalBytes")]
-    public string? Url { get; set; }
+    public bool? hasFileType { get; set; }
+    [DataMember(Name ="url")]
+    public string? url { get; set; }
     [DataMember(Name ="hasUrl")]
-    public bool HasUrl { get; set; }
-    [DataMember(Name ="creationDate")]
-    public long TotalBytes { get; set; }
+    public bool? hasUrl { get; set; }
+    [DataMember(Name ="totalBytes")]
+    public long? totalBytes { get; set; }
     [DataMember(Name ="columns")]
-    public List<string>? Columns { get; set; }
+    public List<string>? columns { get; set; }
 }
 
 [DataContract]
 public class KaggleDatasetListingRootModel {
     [DataMember(Name ="errorMessageNullable")]
-    public bool ErrorMessageNullable { get; set; }
+    public bool? errorMessageNullable { get; set; }
     [DataMember(Name ="nextPageTokenNullable")]
-    public bool NextPageTokenNullable { get; set; }
+    public bool? nextPageTokenNullable { get; set; }
     [DataMember(Name ="datasetFiles")]
-    public List<KaggleDatasetListingModel>? DatasetFiles { get; set; }
+    public List<KaggleDatasetListingModel>? datasetFiles { get; set; }
     [DataMember(Name ="errorMessage")]
-    public string? ErrorMessage { get; set; }
+    public string? errorMessage { get; set; }
     [DataMember(Name ="hasErrorMessage")]
-    public bool HasErrorMessage { get; set; }
+    public bool? hasErrorMessage { get; set; }
     [DataMember(Name ="nextPageToken")]
-    public string? NextPageToken { get; set; }
+    public string? nextPageToken { get; set; }
     [DataMember(Name ="hasNextPageToken")]
-    public bool HasNextPageToken { get; set; }
+    public bool? hasNextPageToken { get; set; }
 }

@@ -12,6 +12,7 @@ class ExperimentalProgram {
         var kaggleAuth = new KaggleAuthenticator(baseAPIURL, pathToKaggleAuthJSON);
         var kaggleRequestor = new KaggleRequestor(kaggleAuth);
         KaggleDatasetListingRootModel nhlDatasetsListing = kaggleRequestor.listKaggleDatasetListings("datasets/list/martinellis/nhl-game-data");
+        Console.WriteLine($"datasetsFiles: {nhlDatasetsListing?.datasetFiles}");
         return 0;
     }
     
